@@ -30,39 +30,41 @@ Import the Library and Book classes in your Python project to use the library sy
 
     ```python
     from src.library import Book, Library
+
     # Initialize the library
     library = Library()
-    
+
     # Add books to the library
-    book1 = Book("123456789", "The Great Gatsby", "F. Scott Fitzgerald",     1925)
-    book2 = Book("987654321", "To Kill a Mockingbird", "Harper Lee", 1960)
-    
+    book1 = Book("9780984782857", "Cracking the Coding Interview", "Gayle Laakmann McDowell", 2015)
+    book2 = Book("9780262033848", "Introduction to Algorithms, Third Edition", "Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein", 2009)
+
     library.add_book(book1)
     library.add_book(book2)
-    
+
     # View available books
     print("Available Books:")
     for book in library.view_available_books():
-        print(f"ISBN: {book.isbn}, Title: {book.title}, Author:     {book.author}, Year: {book.year}")
-    
+        print(f"ISBN: {book.isbn}, Title: {book.title}, Author: {book.author}, Year: {book.year}")
+
     # Borrow a book
-    print("\nBorrowing 'The Great Gatsby'...")
-    library.borrow_book("123456789")
-    
+    print("\nBorrowing 'Cracking the Coding Interview'...")
+    library.borrow_book("9780984782857")
+
     # Try viewing available books again
     print("\nAvailable Books after borrowing:")
     for book in library.view_available_books():
-        print(f"ISBN: {book.isbn}, Title: {book.title}, Author:     {book.author}, Year: {book.year}")
-    
+        print(f"ISBN: {book.isbn}, Title: {book.title}, Author: {book.author}, Year: {book.year}")
+
     # Return the borrowed book
-    print("\nReturning 'The Great Gatsby'...")
-    library.return_book("123456789")
-    
+    print("\nReturning 'Cracking the Coding Interview'...")
+    library.return_book("9780984782857")
+
     # View available books again
     print("\nAvailable Books after returning:")
     for book in library.view_available_books():
-        print(f"ISBN: {book.isbn}, Title: {book.title}, Author:     {book.author}, Year: {book.year}")
-   ``` 
+        print(f"ISBN: {book.isbn}, Title: {book.title}, Author: {book.author}, Year: {book.year}")
+
+    ``` 
  
   
 - Expected Output
