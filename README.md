@@ -67,21 +67,20 @@ Import the Library and Book classes in your Python project to use the library sy
   
 - Expected Output
     ```plaintext
-    Available Books:
-    ISBN: 123456789, Title: The Great Gatsby, Author: F. Scott Fitzgerald,     Year: 1925
-    ISBN: 987654321, Title: To Kill a Mockingbird, Author: Harper Lee, Year:     1960
-    
-    Borrowing 'The Great Gatsby'...
-    
-    Available Books after borrowing:
-    ISBN: 987654321, Title: To Kill a Mockingbird, Author: Harper Lee, Year:     1960
-    
-    Returning 'The Great Gatsby'...
-    
-    Available Books after returning:
-    ISBN: 123456789, Title: The Great Gatsby, Author: F. Scott Fitzgerald,     Year: 1925
-    ISBN: 987654321, Title: To Kill a Mockingbird, Author: Harper Lee, Year:     1960
+        Available Books:
+        ISBN: 9780984782857, Title: Cracking the Coding Interview, Author: Gayle Laakmann McDowell, Year: 2015  
+        ISBN: 9780262033848, Title: Introduction to Algorithms, Third Edition, Author: Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein, Year: 2009
 
+        Borrowing 'Cracking the Coding Interview'...
+
+        Available Books after borrowing:
+        ISBN: 9780262033848, Title: Introduction to Algorithms, Third Edition, Author: Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein, Year: 2009
+
+        Returning 'Cracking the Coding Interview'...
+
+        Available Books after returning:
+        ISBN: 9780984782857, Title: Cracking the Coding Interview, Author: Gayle Laakmann McDowell, Year: 2015  
+        ISBN: 9780262033848, Title: Introduction to Algorithms, Third Edition, Author: Thomas H. Cormen, Charles E. Leiserson, Ronald L. Rivest, Clifford Stein, Year: 2009
     ```
    
    
