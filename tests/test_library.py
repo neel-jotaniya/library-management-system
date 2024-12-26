@@ -7,7 +7,7 @@ def library():
 
 @pytest.fixture
 def sample_book():
-    return Book("123456789", "Sample Book", "John Doe", 2024)
+    return Book("123456789", "Sarcasm 101: A Masterclass", "Chandler Bing", 2024)
 
 def test_add_book(library, sample_book):
     library.add_book(sample_book)
