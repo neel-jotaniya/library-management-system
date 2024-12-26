@@ -7,7 +7,7 @@ A Python-based library management system allowing users to add books, borrow boo
 
 1. Clone the repository:
    ```bash 
-   git clone <repository-url>
+   git clone https://github.com/neel-jotaniya/library-management-system.git
    cd library_management
    ``` 
 
